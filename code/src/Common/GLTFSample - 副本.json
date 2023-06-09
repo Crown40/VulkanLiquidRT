@@ -1,0 +1,222 @@
+{
+  "globals": {
+    "CpuValidationLayerEnabled": false,
+    "GpuValidationLayerEnabled": false,
+    "presentationMode": 0,
+    "width": 1920,
+    "height": 1080,
+    "activeScene": 0,
+    "benchmark": false,
+    "vsync": false,
+    "stablePowerState": false,
+    "FreesyncHDROptionEnabled": false,
+    "fontsize":  13
+  },
+  "scenes": [
+    {
+      "name": "PBR",
+      "directory": "..\\media\\PBR\\",
+      "filename": "PBR.gltf",
+      "TAA": true,
+      "toneMapper": 0,
+      "iblFactor": 1,
+      "emmisiveFactor": 30,
+      "intensity": 50,
+      "exposure": 1,
+      "camera": {
+        "defaultFrom": [ 5, 5, 2 ],
+        "defaultTo": [ 0, 5, 2 ]
+      },
+      "BenchmarkSettings": {
+        "timeStep": 1,
+        "timeStart": 0,
+        "timeEnd": 10000,
+        "exitWhenTimeEnds": true,
+        "resultsFilename": "Sponza.csv",
+        "warmUpFrames": 200,
+        "sequence": {
+          "timeStart": 0,
+          "timeEnd": 2000,
+          "keyFrames": [
+            {
+              "time": 0,
+              "from": [ 5.13694048, 1.89175785, -1.40289795 ],
+              "to": [ 0.703276634, 1.02280307, 0.218072295 ],
+              "screenShotName": "camera1.jpg"
+            },
+            {
+              "time": 1000,
+              "from": [ -5.13694048, 1.89175785, -1.40289795 ],
+              "to": [ 0.703276634, 1.02280307, 0.218072295 ],
+              "screenShotName": "camera2.jpg"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "name": "GI",
+      "directory": "..\\media\\GI\\",
+      "filename": "GI.gltf",
+      "TAA": true,
+      "toneMapper": 0,
+      "iblFactor": 1,
+      "emmisiveFactor": 30,
+      "intensity": 50,
+      "exposure": 1,
+      "camera": {
+        "defaultFrom": [ -2, 11, 1 ],
+        "defaultTo": [ 0, 0, 0 ]
+      },
+      "BenchmarkSettings": {
+        "timeStep": 1,
+        "timeStart": 0,
+        "timeEnd": 10000,
+        "exitWhenTimeEnds": true,
+        "resultsFilename": "Sponza.csv",
+        "warmUpFrames": 200,
+        "sequence": {
+          "timeStart": 0,
+          "timeEnd": 2000,
+          "keyFrames": [
+            {
+              "time": 0,
+              "from": [ 5.13694048, 1.89175785, -1.40289795 ],
+              "to": [ 0.703276634, 1.02280307, 0.218072295 ],
+              "screenShotName": "camera1.jpg"
+            },
+            {
+              "time": 1000,
+              "from": [ -5.13694048, 1.89175785, -1.40289795 ],
+              "to": [ 0.703276634, 1.02280307, 0.218072295 ],
+              "screenShotName": "camera2.jpg"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "name": "Caustics",
+      "directory": "..\\media\\Caustics\\",
+      "filename": "Caustics.gltf",
+      "TAA": true,
+      "toneMapper": 0,
+      "iblFactor": 1,
+      "emmisiveFactor": 30,
+      "intensity": 50,
+      "exposure": 1,
+      "camera": {
+        "defaultFrom": [ 7, 5, -1 ],
+        "defaultTo": [ 0, 0, 0 ]
+      },
+      "BenchmarkSettings": {
+        "timeStep": 1,
+        "timeStart": 0,
+        "timeEnd": 10000,
+        "exitWhenTimeEnds": true,
+        "resultsFilename": "Sponza.csv",
+        "warmUpFrames": 200,
+        "sequence": {
+          "timeStart": 0,
+          "timeEnd": 2000,
+          "keyFrames": [
+            {
+              "time": 0,
+              "from": [ 5.13694048, 1.89175785, -1.40289795 ],
+              "to": [ 0.703276634, 1.02280307, 0.218072295 ],
+              "screenShotName": "camera1.jpg"
+            },
+            {
+              "time": 1000,
+              "from": [ -5.13694048, 1.89175785, -1.40289795 ],
+              "to": [ 0.703276634, 1.02280307, 0.218072295 ],
+              "screenShotName": "camera2.jpg"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "name": "Deferred",
+      "directory": "..\\media\\Deferred\\",
+      "filename": "Deferred.gltf",
+      "TAA": true,
+      "toneMapper": 0,
+      "iblFactor": 1,
+      "emmisiveFactor": 30,
+      "intensity": 50,
+      "exposure": 1,
+      "camera": {
+        "defaultFrom": [ 5, 1, 2 ],
+        "defaultTo": [ 0, 1, 2 ]
+      },
+      "BenchmarkSettings": {
+        "timeStep": 1,
+        "timeStart": 0,
+        "timeEnd": 10000,
+        "exitWhenTimeEnds": true,
+        "resultsFilename": "Sponza.csv",
+        "warmUpFrames": 200,
+        "sequence": {
+          "timeStart": 0,
+          "timeEnd": 2000,
+          "keyFrames": [
+            {
+              "time": 0,
+              "from": [ 5.13694048, 1.89175785, -1.40289795 ],
+              "to": [ 0.703276634, 1.02280307, 0.218072295 ],
+              "screenShotName": "camera1.jpg"
+            },
+            {
+              "time": 1000,
+              "from": [ -5.13694048, 1.89175785, -1.40289795 ],
+              "to": [ 0.703276634, 1.02280307, 0.218072295 ],
+              "screenShotName": "camera2.jpg"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "name": "Shadow",
+      "directory": "..\\media\\Shadow\\",
+      "filename": "Shadow.gltf",
+      "TAA": true,
+      "toneMapper": 0,
+      "iblFactor": 1,
+      "emmisiveFactor": 30,
+      "intensity": 50,
+      "exposure": 1,
+      "camera": {
+        "defaultFrom": [ -3, 4, -3 ],
+        "defaultTo": [ 0, 4, -4 ]
+      },
+      "BenchmarkSettings": {
+        "timeStep": 1,
+        "timeStart": 0,
+        "timeEnd": 10000,
+        "exitWhenTimeEnds": true,
+        "resultsFilename": "Sponza.csv",
+        "warmUpFrames": 200,
+        "sequence": {
+          "timeStart": 0,
+          "timeEnd": 2000,
+          "keyFrames": [
+            {
+              "time": 0,
+              "from": [ 5.13694048, 1.89175785, -1.40289795 ],
+              "to": [ 0.703276634, 1.02280307, 0.218072295 ],
+              "screenShotName": "camera1.jpg"
+            },
+            {
+              "time": 1000,
+              "from": [ -5.13694048, 1.89175785, -1.40289795 ],
+              "to": [ 0.703276634, 1.02280307, 0.218072295 ],
+              "screenShotName": "camera2.jpg"
+            }
+          ]
+        }
+      }
+    }
+  ]
+}
