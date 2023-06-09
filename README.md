@@ -5,5 +5,5 @@ See also the sample of Cauldron: [glTFSample](https://github.com/GPUOpen-Librari
 
 () Collision-Detection: Implement base on RayTracing extension of Vulkan through Ray-AABB Intersection  
 () Liquid-Simulation: Implement base on WCSPH and Collision-Detection  
-() Liquid-Simulation: Implement base on Screen-Space  
+() Liquid-Simulation: Implement base on Point-Rasterization and Screen-Space  
 
